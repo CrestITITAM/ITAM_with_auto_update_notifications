@@ -28,6 +28,7 @@ const { spawn } = require('child_process');
 const child_process = require('child_process');
 
 const AppVersionNumber = app.getVersion() // temp
+const notifier = require('node-notifier'); // temp
 
 const Tray = electron.Tray;
 const iconPath = path.join(__dirname,'images/ePrompto_png.png');
